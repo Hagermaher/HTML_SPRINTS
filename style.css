@@ -6,3 +6,7 @@ p{
     width: max-content;
     font-weight: 800;
 }
+.container>p{
+coloe:green
+}
+/*child of class*/
