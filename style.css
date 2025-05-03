@@ -1,3 +1,6 @@
+html{
+    background-color: brown;
+}
 p{
    color:bisque 
 }
@@ -6,7 +9,18 @@ p{
     width: max-content;
     font-weight: 800;
 }
-.container>p{
-coloe:green
-}
 /*child of class*/
+.container>p{
+color:green;
+}
+ul >li {
+    color: burlywood;
+
+}
+ul > li:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+ol>li{
+    color: antiquewhite;
+}
