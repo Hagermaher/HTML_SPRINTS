@@ -1,0 +1,16 @@
+.parent{
+display: flex;
+flex-wrap: wrap;
+}
+.child{
+    
+    width:33%
+}
+/* we can also use
+.parent{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap:30px;
+}
+*/
+
