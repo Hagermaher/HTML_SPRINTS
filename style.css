@@ -24,3 +24,22 @@ ul > li:hover{
 ol>li{
     color: antiquewhite;
 }
+.container{
+    display: flex;
+    background-color: blanchedalmond;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+    
+.child{
+    flex-wrap: wrap;    
+}
+.form_class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
